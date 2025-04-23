@@ -1,4 +1,7 @@
 cmake_minimum_required (VERSION 3.9)
+
+include_directories(/opt/anaconda3/include/c++/v1)
+
 project (monitoring-client CXX)
 
 set(CMAKE_CXX_STANDARD 11)

@@ -15,7 +15,7 @@ print('Connected by ', addr)
 
 X_1 = np.zeros(6)
 
-autoencoder = keras.models.load_model('autoencoder_model')
+autoencoder = keras.models.load_model('autoencoder_model.keras')
 timestep = 1
 prev_data = {
         1 : np.zeros([1,4]),
