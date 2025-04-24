@@ -3,5 +3,6 @@
     "files.associations": {
         ".java": "java",
         "__config": "cpp"
-    }
+    },
+    "cmake.ignoreCMakeListsMissing": true
 }
