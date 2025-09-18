@@ -16,8 +16,8 @@ FEATURE_COLUMNS = [
 ]
 
 # Load LSTM models
-lstm_no_diff = keras.models.load_model('lstm_no_diff.keras')
-lstm_no_extra = keras.models.load_model('lstm_no_extra.keras')
+lstm_no_diff = keras.models.load_model('lstm_model_no_diff_new.h5', compile=False)
+lstm_no_extra = keras.models.load_model('lstm_model_no_extra.h5', compile=False)
 
 # Rolling buffer: keep last WINDOW_SIZE samples per PRN
 buffers = defaultdict(lambda: deque(maxlen=WINDOW_SIZE))
